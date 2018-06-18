@@ -1,14 +1,36 @@
 import React, { Component } from 'react';
 import pkoLogo from '../../assets/img/pko-bp.png'
+import CreditInfoItems from './CreditInfoItems/CreditInfoItems';
 
 class CreditInfo extends Component {
 
     constructor(props) {
         super(props);
+
+        this.state = {
+            creditInfo: [
+                {text: 'Kwota kredytu: ', option: '25000 zł'},
+                {text: 'Okres spłaty: ', option: '25 lat'},
+                {text: 'Rata: ', option: '1227.02 zł'}
+            ]
+        }
     }
 
     render() {
+        const creditInfoListItem = this.state.creditInfo.map((creditInfo, index) =>
+            <CreditInfoItems
+                key={index}
+                index={index}>
+                creditInfoText={creditInfo.text}
+                creditOption={creditInfo.option}
+            </CreditInfoItems>
+        );
+
+
         return (
+
+
+
             <div>
                 <section className="row credit">
                     <div className="col-md-12 credit__company">
@@ -21,9 +43,7 @@ class CreditInfo extends Component {
 
                     <div className="credit__info col-md-12">
                         <ul className="credit__info__list">
-                            <li className="credit__info__list__item">Kwota kredytu: <strong>25000 zł</strong></li>
-                            <li className="credit__info__list__item">Okres spłaty: <strong>25 lat</strong></li>
-                            <li className="credit__info__list__item">Rata: <strong>1227.02 zł</strong>/mie</li>
+                            {creditInfoListItem}
                         </ul>
                     </div>
                     <hr className="credit__hr" />
