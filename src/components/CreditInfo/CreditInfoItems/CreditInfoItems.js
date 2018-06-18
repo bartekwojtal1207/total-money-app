@@ -7,3 +7,5 @@ const CreditInfoItems = (props) => {
 };
 
 export default CreditInfoItems;
+
+//@TODO do poprawy props.children
