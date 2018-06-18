@@ -25,12 +25,8 @@ class CreditInfo extends Component {
                 creditOption={creditInfo.option}
             </CreditInfoItems>
         );
-
-
+        
         return (
-
-
-
             <div>
                 <section className="row credit">
                     <div className="col-md-12 credit__company">

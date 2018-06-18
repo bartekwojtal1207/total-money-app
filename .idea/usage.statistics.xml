@@ -6,7 +6,7 @@
         <counts>
           <entry key="css" value="4" />
           <entry key="html" value="1" />
-          <entry key="js" value="13" />
+          <entry key="js" value="15" />
           <entry key="png" value="1" />
           <entry key="svg" value="1" />
         </counts>
@@ -16,24 +16,24 @@
           <entry key="CSS" value="4" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JavaScript" value="15" />
           <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="85" />
+          <entry key="css" value="128" />
           <entry key="html" value="4" />
-          <entry key="js" value="1371" />
-          <entry key="txt" value="43" />
+          <entry key="js" value="1596" />
+          <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="85" />
+          <entry key="CSS" value="128" />
           <entry key="HTML" value="4" />
-          <entry key="JavaScript" value="1371" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="JavaScript" value="1596" />
+          <entry key="PLAIN_TEXT" value="81" />
         </counts>
       </usages-collector>
     </session>
