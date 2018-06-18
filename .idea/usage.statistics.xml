@@ -4,30 +4,36 @@
     <session id="1409017232">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
+          <entry key="css" value="4" />
           <entry key="html" value="1" />
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
+          <entry key="png" value="1" />
+          <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
+          <entry key="CSS" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="7" />
+          <entry key="Image" value="1" />
+          <entry key="JavaScript" value="8" />
+          <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="html" value="1" />
-          <entry key="js" value="313" />
+          <entry key="css" value="68" />
+          <entry key="html" value="4" />
+          <entry key="js" value="601" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="313" />
+          <entry key="CSS" value="68" />
+          <entry key="HTML" value="4" />
+          <entry key="JavaScript" value="601" />
+          <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
     </session>

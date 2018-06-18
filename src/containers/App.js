@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import './App.css';
 import Header from '../components/Header/Header'
+import CreditInfo from '../components/CreditInfo/CreditInfo'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
               <div className="row">
                   <div className="col-md-6">
                     <Header/>
+                      <CreditInfo/>
                   </div>
               </div>
           </div>
